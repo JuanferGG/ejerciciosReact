@@ -53,7 +53,7 @@ const FormContacto = () => {
                 <ul>
                     {
                         arrayContactos.map((contacto, index) => (
-                            <li key={index}><b>Contacto: {contacto.nombre}</b> Tel:{contacto.telefono} {contacto.conectado ? 'Conectado' : 'Desconectado'} <button onClick={()=> changeState(index)}>{contacto.conectado ? 'Desconectar' : 'Conectar'}</button> <AiFillDelete onClick={() => deleteContact(index)}/></li>
+                            <li key={index}><b>Contacto: {contacto.nombre}</b> Tel:{contacto.telefono} {contacto.conectado ? 'Conectado' : 'Desconectado'} <button onClick={()=> changeState(index)}>{contacto.conectado ? 'Desconectar' : 'Conectar'}</button> <AiFillDelete className='delete' onClick={() => deleteContact(index)}/></li>
                         ))
                     }
                 </ul>

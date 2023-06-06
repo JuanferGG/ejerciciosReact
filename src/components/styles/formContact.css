@@ -35,3 +35,8 @@ form .submit:hover{
     justify-content: space-around;
     font-size: 1.2em;
 }
+.contactos ul li .delete{
+    cursor: pointer;
+    color: tomato;
+    font-size: 1.3em;
+}
