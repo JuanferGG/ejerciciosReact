@@ -1,0 +1,37 @@
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap ;
+    gap: 1.5em;
+}
+form input{
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 4px solid tomato;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.5em;
+    width: 30%;
+}
+form button{
+    background: none;
+    border: none;
+}
+form .submit{
+    cursor: pointer;
+    font-size: 3em;
+
+    transition: all .5s;
+}
+form .submit:hover{
+    color: tomato;
+}
+.contactos ul li{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    font-size: 1.2em;
+}
