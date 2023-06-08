@@ -1,22 +1,19 @@
-import { useState } from 'react'
+import React from 'react'
 import './App.css'
-import FormContacto from './components/forms/formContacto'
-import { AiFillContacts } from "react-icons/ai"
+import ContainerContact from './components/containers/containerContact'
+import OptionalRender from './components/pure/optionalRender/optionalRender'
+import Cuadrado from './components/pure/cuadrado/cuadrado'
 
 function App() {
-  const [cout, setCount] = useState(0)
 
   return (
-    <main className='mainPrincipal'>
-      <header className='title'>
-        <h1>Contactos</h1>
-        <AiFillContacts className='icon'/>
-      </header>
-
-      {/* TODO Form contacto */}
-      <section className='formContact'>
-        <FormContacto/>
-      </section>
+    <main>
+      {/* //? Ejercicio contacto */}
+      {/* <ContainerContact/> */}
+      {/* Ejemplo Renderizado condicional */}
+      {/* <OptionalRender/> */}
+      {/* //? Ejercicio sesiones 10,11 12 */}
+      <Cuadrado/>
     </main>
   )
 }
