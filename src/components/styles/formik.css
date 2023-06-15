@@ -1,0 +1,47 @@
+button{
+    font-size: 1.5em;
+    cursor: pointer;
+    background: tomato;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: .2em 1.4em;
+
+    transition: all .5s;
+}
+button:hover{
+    background: transparent;
+    color: tomato;
+    box-shadow: 0 0 10px antiquewhite;
+}
+label{
+    color: antiquewhite;
+    font-size: 2em;
+    font-weight: bold;
+}
+form input{
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 4px solid tomato;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.5em;
+    width: 18em;
+}
+h4{
+    color: antiquewhite;
+    text-align: center;
+    font-size: 1.8em;
+}
+div{
+    color: tomato;
+}
+.note{
+    color: antiquewhite;
+    font-size: 1.3em;
+    text-align: center;
+}
